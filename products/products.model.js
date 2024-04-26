@@ -14,7 +14,7 @@ const productsSchema = new Schema({
     description: String,
     category: { 
         type: String,
-        enum : ['Electronics','Clothing','Home & Kitchen'],
+        enum : ['Electronics','Clothing','Home_&_Kitchen'],
         required: true
     },
     price: {

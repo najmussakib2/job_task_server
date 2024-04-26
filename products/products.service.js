@@ -17,7 +17,7 @@ const getSingleProductFromDB = async (Id) => {
 };
 
 const getHomeKitchenProductsFromDB = async () => {
-    const result = await productSchema.find({category: "Home & Kitchen"});
+    const result = await productSchema.find({category: "Home_&_Kitchen"});
     return result;
 };
 const getElectronicsProductsFromDB = async () => {
